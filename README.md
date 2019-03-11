@@ -110,3 +110,10 @@
 ### 예상 결과물
 
 ![](https://user-images.githubusercontent.com/17154958/51802288-f48a1780-228b-11e9-8d8c-dd7192515999.png)
+
+
+
+- 20180207
+  - crawling_zigbang.ipynb 수정: 상세주소로 검색하므로 get_addr_info 직방 사이트내에 동으로 검색하여 위도 경도를 뽑아오는 함수 제거, 상세주소 위경도 +- 0.01 범위 내에 있는 item 뽑아오는 것으로 변경
+  - 직방 내에서 item을 뽑아올 때 rent, deposit, parking 의 상세 조건으로 filtering 하도록 함수 수정
+  - distance_calculator.ipynb: 보완하기 
